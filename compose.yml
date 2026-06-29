@@ -1,0 +1,18 @@
+services:
+  docs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    working_dir: /workspace
+
+    volumes:
+      - .:/workspace
+
+    ports:
+      - "${MYST_PORT:-3001}:3000"
+
+    command:
+      - bash
+      - -c
+      - HOST=0.0.0.0 myst start --keep-host --port 3000
