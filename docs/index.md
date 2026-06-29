@@ -87,3 +87,21 @@ Every documentation page introduces another MyST capability or development best 
 :::{warning}
 This project is actively developed and new features will continue to be added.
 :::
+
+## Continue Reading
+
+- 🚀 Getting Started
+- 🏗 Architecture
+- 🧪 Playground
+
+---
+
+## 📚 Continue Exploring
+
+Continue reading the documentation:
+
+- 🚀 Getting Started
+- 🏗 Architecture
+- 🐳 Docker Guide
+- ⚙️ Engineering Decisions
+- 🧪 Playground
