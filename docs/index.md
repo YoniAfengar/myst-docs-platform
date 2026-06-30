@@ -105,3 +105,51 @@ Continue reading the documentation:
 - 🐳 Docker Guide
 - ⚙️ Engineering Decisions
 - 🧪 Playground
+
+---
+
+# 🚀 Explore the Documentation
+
+::::{grid} 2
+
+:::{card} 🚀 Getting Started
+
+Learn how to install and run the project.
+
++++
+
+Open the Getting Started guide.
+
+:::
+
+:::{card} 🐳 Docker
+
+Understand the Docker development environment.
+
++++
+
+Explore Docker documentation.
+
+:::
+
+:::{card} 🏗 Architecture
+
+Learn how the project is structured.
+
++++
+
+View the architecture page.
+
+:::
+
+:::{card} 🧪 Playground
+
+Discover MyST features through interactive examples.
+
++++
+
+Open the Playground.
+
+:::
+
+::::
