@@ -1,222 +1,148 @@
 ---
-title: Playground
-label: playground
+title: MyST Playground
 ---
 
 # 🧪 MyST Playground
 
-Welcome to the MyST Playground.
+> Explore the most commonly used MyST features in one place.
 
-This page demonstrates the most commonly used MyST features with real examples.
-
----
-
-# 💡 Admonitions
-
-Admonitions help highlight important information.
-
-## Tip
-
-:::{tip}
-Always keep your documentation close to your code.
-:::
-
-## Note
-
-:::{note}
-Documentation should evolve together with the project.
-:::
-
-## Warning
-
-:::{warning}
-Outdated documentation is often worse than no documentation.
-:::
+This page demonstrates the most useful MyST Markdown capabilities through practical, real-world examples.
 
 ---
 
-# 💻 Code Highlighting
+## 💡 Admonitions
 
-Python
+```{note}
+This is a standard note.
+```
+
+```{tip}
+Use admonitions to highlight useful information.
+```
+
+```{warning}
+Warnings are useful for important notices.
+```
+
+```{important}
+Important information can be highlighted like this.
+```
+
+---
+
+## 🃏 Cards
+
+::::{grid} 2
+
+:::{card}
+:header: 📚 Documentation
+
+Well-structured documentation improves the developer experience.
+:::
+
+:::{card}
+:header: 🐳 Docker
+
+Run the project inside a containerized development environment.
+:::
+
+::::
+
+---
+
+## 📑 Tabs
+
+::::{tab-set}
+
+:::{tab-item} Python
 
 ```python
-def fibonacci(n):
-    if n <= 1:
-        return n
-    return fibonacci(n - 1) + fibonacci(n - 2)
-
-print(fibonacci(8))
+print("Hello MyST!")
 ```
 
-Docker Compose
+:::
 
-```yaml
-services:
-  docs:
-    build: .
-    ports:
-      - "3001:3000"
+:::{tab-item} SQL
+
+```sql
+SELECT * FROM employees;
 ```
 
-Bash
+:::
+
+:::{tab-item} Bash
 
 ```bash
-make up
-make logs
-make shell
+docker compose up
+```
+
+:::
+
+::::
+
+---
+
+## 📊 Mermaid Diagram
+
+```{mermaid}
+flowchart LR
+
+A[Write Markdown]
+--> B[Build MyST Site]
+--> C[Generate Documentation]
 ```
 
 ---
 
-# 📊 Mermaid Diagram
+## 💻 Code Block
 
-```mermaid
-flowchart TD
+```python
+def greet(name):
+    return f"Hello {name}"
 
-Developer --> VSCode
-
-VSCode --> Git
-
-VSCode --> Docker
-
-Docker --> MyST
-
-MyST --> Browser
+print(greet("MyST"))
 ```
 
 ---
 
-# 📋 Tables
-
-| Feature | Supported |
-|----------|-----------|
-| Markdown | ✅ |
-| MyST Directives | ✅ |
-| Mermaid | ✅ |
-| Docker | ✅ |
-| Math | ✅ |
-
----
-
-# 🧮 Mathematics
+## ➗ Mathematics
 
 Inline equation:
 
 $E = mc^2$
 
-Block equation:
+Displayed equation:
 
 $$
-\sum_{i=1}^{n} i=\frac{n(n+1)}{2}
+a^2+b^2=c^2
 $$
 
 ---
 
-# ✅ Task List
+## 🔗 Cross References
 
-- [x] Docker
-- [x] Git
-- [x] MyST
-- [x] Mermaid
-- [ ] GitHub Actions
-- [ ] PDF Export
+Return to the {doc}`index`.
 
 ---
 
-# 📌 Quote
+## ✅ Playground Summary
 
-> Documentation is a feature, not an afterthought.
+This page demonstrates:
 
----
+- ✅ Admonitions
+- ✅ Cards
+- ✅ Tabs
+- ✅ Mermaid diagrams
+- ✅ Code blocks
+- ✅ Mathematics
+- ✅ Cross references
 
-# 🧩 Project Tree
-
-```text
-myst-docs-platform/
-
-├── docs/
-├── Dockerfile
-├── compose.yml
-├── Makefile
-├── myst.yml
-└── README.md
-```
+These are some of the most commonly used MyST features when building professional technical documentation.
 
 ---
 
-# 🎯 Summary
+## 🚀 What's Next?
 
-The Playground is designed to demonstrate the core capabilities of MyST in a single place.
+Explore the rest of the documentation to see how these features are used in a complete documentation platform.
 
-Each section showcases a real feature that can be used in technical documentation projects.
-
----
-
-# 🖼 Figures
-
-MyST also supports figures with captions.
-
-```{figure} https://placehold.co/700x250/png
-:alt: Placeholder image
-:name: fig-placeholder
-
-Example figure rendered by MyST.
-```
-
----
-
-# 🔗 Cross References
-
-You can create links between pages in your documentation.
-
-Example:
-
-- Go back to the Home page.
-- Continue reading the Architecture page.
-
-Cross references help create a connected documentation experience.
-
----
-
-# 📝 Footnotes
-
-Footnotes are useful for adding additional information without interrupting the reading flow.
-
-MyST supports footnotes naturally.[^1]
-
-[^1]: This is an example footnote rendered by MyST.
-
----
-
-# 📑 Tabs
-
-MyST allows presenting multiple alternatives in a clean and readable way.
-
-::::{tab-set}
-
-:::{tab-item} Bash
-
-```bash
-make up
-```
-
-:::
-
-:::{tab-item} Docker Compose
-
-```bash
-docker compose up -d
-```
-
-:::
-
-:::{tab-item} Manual
-
-1. Build the image
-2. Start the container
-3. Open the browser
-4. Begin writing documentation
-
-:::
-
-::::
+Return to the {doc}`index`.
