@@ -4,48 +4,40 @@ title: Playground
 
 # 🧪 MyST Playground
 
-The playground is a collection of interactive examples that demonstrate MyST features in a real project.
+Welcome to the MyST Playground.
 
-Instead of simply reading about a feature, you can see how it looks when rendered.
+This page demonstrates the core features of MyST using real examples.
 
 ---
 
-## 💡 Tip
+# 💡 Admonitions
 
+### Source
+
+```
 :::{tip}
-MyST makes technical documentation much more powerful than standard Markdown.
+Always document your code.
 :::
-
----
-
-## ⚠️ Warning
-
-:::{warning}
-Keep documentation synchronized with your codebase.
-:::
-
----
-
-## 📝 Note
-
-:::{note}
-Good documentation is part of the product.
-:::
-
----
-
-## 💻 Python Example
-
-```python
-def greet(name):
-    return f"Hello {name}"
-
-print(greet("Developer"))
 ```
 
+### Result
+
+:::{tip}
+Always document your code.
+:::
+
 ---
 
-## 🐳 Docker Example
+# 💻 Code Blocks
+
+### Python
+
+```python
+def hello():
+    print("Hello MyST!")
+```
+
+### Bash
 
 ```bash
 make up
@@ -53,7 +45,7 @@ make up
 
 ---
 
-## 📊 Mermaid Example
+# 📊 Mermaid
 
 ```mermaid
 flowchart LR
@@ -65,25 +57,47 @@ MyST --> Browser
 
 ---
 
-## 📋 Table Example
+# 📋 Tables
 
 | Feature | Supported |
-|---------|-----------|
-| Markdown | ✅ |
+|----------|-----------|
+| MyST | ✅ |
 | Mermaid | ✅ |
-| Tables | ✅ |
-| Code Blocks | ✅ |
+| Docker | ✅ |
 
 ---
 
-## 🧮 Mathematics
+# 🧮 Mathematics
 
 Inline:
 
 $E = mc^2$
 
-Block:
+Display:
 
 $$
 \sum_{i=1}^{n} i = \frac{n(n+1)}{2}
 $$
+
+---
+
+# 📝 Lists
+
+- Item 1
+- Item 2
+- Item 3
+
+---
+
+# ✅ Checklist
+
+- [x] Docker
+- [x] MyST
+- [x] Git
+- [ ] GitHub Actions
+
+---
+
+# 🎯 Conclusion
+
+The Playground demonstrates the most commonly used MyST capabilities in a single page.
