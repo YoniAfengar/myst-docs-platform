@@ -153,3 +153,12 @@ Open the Playground.
 :::
 
 ::::
+
+
+---
+
+# 🔗 Quick Links
+
+- {ref}`docker-guide`
+- {ref}`architecture`
+- {ref}`playground`

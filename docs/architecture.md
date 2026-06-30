@@ -1,5 +1,6 @@
 ---
 title: Architecture
+label: architecture
 ---
 
 # 🏗 Project Architecture
