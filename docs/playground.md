@@ -184,3 +184,38 @@ Footnotes are useful for adding additional information without interrupting the 
 MyST supports footnotes naturally.[^1]
 
 [^1]: This is an example footnote rendered by MyST.
+
+---
+
+# 📑 Tabs
+
+MyST allows presenting multiple alternatives in a clean and readable way.
+
+::::{tab-set}
+
+:::{tab-item} Bash
+
+```bash
+make up
+```
+
+:::
+
+:::{tab-item} Docker Compose
+
+```bash
+docker compose up -d
+```
+
+:::
+
+:::{tab-item} Manual
+
+1. Build the image
+2. Start the container
+3. Open the browser
+4. Begin writing documentation
+
+:::
+
+::::
