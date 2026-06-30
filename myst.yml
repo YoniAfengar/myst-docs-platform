@@ -19,6 +19,7 @@ project:
         - file: docs/getting-started.md
         - file: docs/engineering-decisions.md
         - file: docs/playground.md
+        - file: docs/directives.md
     
 site:
   template: book-theme
