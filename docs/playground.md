@@ -148,3 +148,39 @@ myst-docs-platform/
 The Playground is designed to demonstrate the core capabilities of MyST in a single place.
 
 Each section showcases a real feature that can be used in technical documentation projects.
+
+---
+
+# 🖼 Figures
+
+MyST also supports figures with captions.
+
+```{figure} https://placehold.co/700x250/png
+:alt: Placeholder image
+:name: fig-placeholder
+
+Example figure rendered by MyST.
+```
+
+---
+
+# 🔗 Cross References
+
+You can create links between pages in your documentation.
+
+Example:
+
+- Go back to the Home page.
+- Continue reading the Architecture page.
+
+Cross references help create a connected documentation experience.
+
+---
+
+# 📝 Footnotes
+
+Footnotes are useful for adding additional information without interrupting the reading flow.
+
+MyST supports footnotes naturally.[^1]
+
+[^1]: This is an example footnote rendered by MyST.
