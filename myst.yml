@@ -13,14 +13,14 @@ project:
     - file: README.md
     - title: Docs
       children:
-        - file: docs/index.md
-        - file: docs/architecture.md
-        - file: docs/docker.md
-        - file: docs/getting-started.md
-        - file: docs/engineering-decisions.md
-        - file: docs/playground.md
-        - file: docs/directives.md
-        - file: docs/roles.md
+    - file: docs/index.md
+    - file: docs/getting-started.md
+    - file: docs/architecture.md
+    - file: docs/docker.md
+    - file: docs/engineering-decisions.md
+    - file: docs/directives.md
+    - file: docs/roles.md
+    - file: docs/playground.md
     
 site:
   template: book-theme

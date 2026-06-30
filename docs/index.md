@@ -161,4 +161,4 @@ Open the Playground.
 
 - {ref}`docker-guide`
 - {ref}`architecture`
-- {ref}`playground`
+- {ref}`myst-playground`

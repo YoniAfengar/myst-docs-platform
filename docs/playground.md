@@ -1,5 +1,6 @@
 ---
 title: MyST Playground
+label: myst-playground
 ---
 
 # 🧪 MyST Playground
