@@ -4,71 +4,46 @@ title: Architecture
 
 # 🏗 Project Architecture
 
-This page explains how the different components of the project work together.
-
----
-
-## High-Level Overview
+The following diagram illustrates the overall architecture of the project.
 
 ```mermaid
-flowchart LR
+flowchart TD
 
-Developer["👨‍💻 Developer"] --> VSCode["📝 VS Code"]
+A[Developer] --> B[VS Code]
 
-VSCode --> Files["📂 Project Files"]
+B --> C[Git]
 
-Files --> Docker["🐳 Docker Compose"]
+B --> D[Docker Compose]
 
-Docker --> Container["📦 MyST Container"]
+D --> E[Docker Container]
 
-Container --> MyST["📚 MyST Server"]
+E --> F[MyST]
 
-MyST --> Browser["🌍 Browser :3001"]
+F --> G[Documentation Site]
+
+G --> H[Browser]
 ```
 
 ---
 
-## Component Overview
+## Components
 
 | Component | Responsibility |
 |-----------|----------------|
-| Developer | Writes and edits the documentation |
-| VS Code | Main development environment |
-| Project Files | Markdown files, configuration and Docker files |
-| Docker Compose | Starts and manages the development environment |
-| MyST Container | Runs the MyST documentation server |
-| Browser | Displays the generated documentation |
+| VS Code | Source code editing |
+| Git | Version control |
+| Docker Compose | Development environment |
+| Docker | Runtime container |
+| MyST | Documentation engine |
+| Browser | Documentation preview |
 
 ---
 
-## Development Workflow
+## Workflow
 
-The project follows a simple development workflow:
-
-1. Edit documentation in VS Code.
-2. Files are immediately synchronized into the Docker container.
-3. MyST detects file changes.
-4. Documentation is rebuilt automatically.
-5. Refresh the browser to view the latest version.
-
----
-
-## Why Docker?
-
-Using Docker provides several advantages:
-
-- Consistent development environment
-- No local dependency installation
-- Easy onboarding
-- Isolated runtime
-- Reproducible builds
-
----
-
-## Future Improvements
-
-- GitHub Actions for automatic documentation builds
-- PDF export pipeline
-- Versioned documentation
-- Search integration
-- Custom MyST theme
+1. Edit the documentation.
+2. Save the file.
+3. MyST rebuilds automatically.
+4. Refresh the browser.
+5. Commit the changes.
+6. Push to GitHub.
