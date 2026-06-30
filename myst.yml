@@ -18,6 +18,7 @@ project:
     - file: docs/architecture.md
     - file: docs/docker.md
     - file: docs/engineering-decisions.md
+    - file: notebook-support.ipynb
     - file: docs/directives.md
     - file: docs/roles.md
     - file: docs/playground.md
