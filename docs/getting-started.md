@@ -4,15 +4,15 @@ title: Getting Started
 
 # 🚀 Getting Started
 
-## Prerequisites
+This guide explains how to start the project locally.
 
-Before you begin, install:
+## Prerequisites
 
 - Docker
 - Docker Compose
 - Git
 
-## Clone the repository
+## Clone
 
 ```bash
 git clone https://github.com/YoniAfengar/myst-docs-platform.git
@@ -20,7 +20,7 @@ git clone https://github.com/YoniAfengar/myst-docs-platform.git
 cd myst-docs-platform
 ```
 
-## Start the documentation
+## Run
 
 ```bash
 make up
@@ -31,3 +31,9 @@ Open:
 ```text
 http://localhost:3001
 ```
+
+---
+
+## Continue Reading
+
+➡ Next: Docker

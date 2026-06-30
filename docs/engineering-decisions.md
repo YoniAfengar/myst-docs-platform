@@ -103,3 +103,11 @@ Planned improvements include:
 - Custom MyST theme
 - Search integration
 - Non-root Docker container
+
+---
+
+## Navigation
+
+⬅ Previous: Architecture
+
+➡ Next: Playground

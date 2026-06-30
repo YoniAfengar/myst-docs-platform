@@ -4,35 +4,27 @@ title: Docker
 
 # 🐳 Docker
 
-This project uses Docker to provide a consistent development environment.
+Docker provides a consistent development environment.
 
-## Why Docker?
-
-- No local installation of MyST
-- Same environment for every developer
-- Easy onboarding
-- Reproducible builds
-
-## Start the project
+## Available Commands
 
 ```bash
 make up
-```
-
-## Stop the project
-
-```bash
 make down
-```
-
-## Open a shell
-
-```bash
+make logs
 make shell
 ```
 
-## View logs
+## Why Docker?
 
-```bash
-make logs
-```
+- Same environment for every developer
+- No local MyST installation
+- Easy onboarding
+
+---
+
+## Navigation
+
+⬅ Previous: Getting Started
+
+➡ Next: Architecture
