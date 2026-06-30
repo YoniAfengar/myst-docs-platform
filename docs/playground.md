@@ -6,52 +6,80 @@ title: Playground
 
 Welcome to the MyST Playground.
 
-This page demonstrates the core features of MyST using real examples.
+This page demonstrates the most commonly used MyST features with real examples.
 
 ---
 
 # 💡 Admonitions
 
-### Source
+Admonitions help highlight important information.
 
-```
+## Tip
+
 :::{tip}
-Always document your code.
+Always keep your documentation close to your code.
 :::
-```
 
-### Result
+## Note
 
-:::{tip}
-Always document your code.
+:::{note}
+Documentation should evolve together with the project.
+:::
+
+## Warning
+
+:::{warning}
+Outdated documentation is often worse than no documentation.
 :::
 
 ---
 
-# 💻 Code Blocks
+# 💻 Code Highlighting
 
-### Python
+Python
 
 ```python
-def hello():
-    print("Hello MyST!")
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + fibonacci(n - 2)
+
+print(fibonacci(8))
 ```
 
-### Bash
+Docker Compose
+
+```yaml
+services:
+  docs:
+    build: .
+    ports:
+      - "3001:3000"
+```
+
+Bash
 
 ```bash
 make up
+make logs
+make shell
 ```
 
 ---
 
-# 📊 Mermaid
+# 📊 Mermaid Diagram
 
 ```mermaid
-flowchart LR
+flowchart TD
 
-Developer --> Docker
+Developer --> VSCode
+
+VSCode --> Git
+
+VSCode --> Docker
+
 Docker --> MyST
+
 MyST --> Browser
 ```
 
@@ -61,43 +89,62 @@ MyST --> Browser
 
 | Feature | Supported |
 |----------|-----------|
-| MyST | ✅ |
+| Markdown | ✅ |
+| MyST Directives | ✅ |
 | Mermaid | ✅ |
 | Docker | ✅ |
+| Math | ✅ |
 
 ---
 
 # 🧮 Mathematics
 
-Inline:
+Inline equation:
 
 $E = mc^2$
 
-Display:
+Block equation:
 
 $$
-\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
+\sum_{i=1}^{n} i=\frac{n(n+1)}{2}
 $$
 
 ---
 
-# 📝 Lists
-
-- Item 1
-- Item 2
-- Item 3
-
----
-
-# ✅ Checklist
+# ✅ Task List
 
 - [x] Docker
-- [x] MyST
 - [x] Git
+- [x] MyST
+- [x] Mermaid
 - [ ] GitHub Actions
+- [ ] PDF Export
 
 ---
 
-# 🎯 Conclusion
+# 📌 Quote
 
-The Playground demonstrates the most commonly used MyST capabilities in a single page.
+> Documentation is a feature, not an afterthought.
+
+---
+
+# 🧩 Project Tree
+
+```text
+myst-docs-platform/
+
+├── docs/
+├── Dockerfile
+├── compose.yml
+├── Makefile
+├── myst.yml
+└── README.md
+```
+
+---
+
+# 🎯 Summary
+
+The Playground is designed to demonstrate the core capabilities of MyST in a single place.
+
+Each section showcases a real feature that can be used in technical documentation projects.
