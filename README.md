@@ -27,25 +27,6 @@ Built as part of my engineering portfolio, this repository demonstrates Document
 
 ---
 
-## 📑 Table of Contents
-
-- [Preview](#-preview)
-- [Highlights](#-highlights)
-- [Documentation Highlights](#-documentation-highlights)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Documentation Pages](#-documentation-pages)
-- [Key Objectives](#-key-objectives)
-- [Engineering Decisions](#-engineering-decisions)
-- [What This Project Demonstrates](#-what-this-project-demonstrates)
-- [Future Improvements](#-future-improvements)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Author](#-author)
-
----
-
 # 📸 Preview
 
 <p align="center">
