@@ -38,7 +38,7 @@ This repository is designed both as a learning project and as a portfolio projec
 
 # 📸 Preview
 
-![MyST Docs Platform](images/preview.png)
+![MyST Docs Platform](images/preview_1.png)
 
 > Home page of the documentation platform running locally.
 
@@ -180,3 +180,5 @@ Suggestions, ideas, and constructive feedback are always welcome.
 # 📄 License
 
 This project is intended for educational and portfolio purposes.
+
+
